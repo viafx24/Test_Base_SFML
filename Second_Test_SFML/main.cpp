@@ -16,7 +16,7 @@ int main()
     sf::Text text("Hello SFML", font, 50);
     // Load a music to play
     sf::Music music;
-    if (!music.openFromFile("nice_music.ogg"))
+    if (!music.openFromFile("JAZZ_30.ogg"))
         return EXIT_FAILURE;
     // Play the music
     music.play();
